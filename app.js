@@ -240,7 +240,7 @@ function getOrCreatePlayerId() {
 }
 
 // Simple password for DM mode (placeholder — swap with real auth for production)
-const DM_PASSWORD = 'dragon';
+const DM_PASSWORD = 'Hellfire';
 if (DM_PASSWORD === 'dragon') {
   console.warn("[plagues-call] Default DM password 'dragon' is in use. Change DM_PASSWORD in app.js before public deployment.");
 }
